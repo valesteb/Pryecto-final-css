@@ -27,23 +27,23 @@ header .cabecera{
 header .menu{
  width: 30%; 
  display: flex; flex-flow: row;
- order: 2;
+ order:
+ 2;
 }
 .inicio, .paisajes, .retratos{
- width: 100%;  padding-top: 10%;
- margin: 0 auto;
+ width: 100%;  
+ padding-top: 10%;
+ margin: 0 auto;  
+ text-align: center;
 }
 .inicio{
- text-align: center;
  float: left;
 }
 .paisajes{
- text-align: center;
  float: center;
 }
 .retratos{
-text-align: right; 
-float: right;
+ float: right;
 }
 .inicio> a{
  text-decoration: none; text-align: left; 
@@ -105,15 +105,15 @@ li> img{
   width: 100%;
  }
  .inicio{
- float: left; border: 1px solid black;
+ float: left;
  padding-top: 0;
 }
 .paisajes{
- float: center; border: 1px solid black;
+ float: center;
  padding-top: 0;
 }
  .retratos{
- float: right; border: 1px solid black;
+ float: right;
  padding-top: 0; margin-right:  0;
 }
  header .cabecera{

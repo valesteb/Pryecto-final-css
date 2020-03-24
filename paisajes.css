@@ -14,7 +14,7 @@ header{
  animation: h1 1s;
  overflow: hidden; 
 }
-@-webkit-keyframe h1{
+@-webkit-keyframes h1{
  0%{margin-top: 150%;
  }
  60%{margin-top: -5%;
